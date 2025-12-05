@@ -29,9 +29,9 @@ const Learnreact = () => {
   return (
     <div>
         <form onSubmit={handleSubmit}>
-            <h2>Username</h2>
+            <h2>Enter Username</h2>
             <input type="text" name='' placeholder='Enter username' value={username} onChange={(e) => setUsername(e.target.value)} />
-            <h2>Password</h2>
+            <h2>Enter Password</h2>
             <input type="password" name="" id="" placeholder='Enter your password' value={password} onChange={(e) => setPassword(e.target.value)} />
             <button type='submit'>Login</button>
         </form>
